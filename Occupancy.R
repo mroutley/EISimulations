@@ -6,7 +6,7 @@
 # Required libraries
 library(reshape)
 library(doBy)
-library(ggplot)
+library(ggplot2)
 # Common values
 iterations <- 1000
 # =================================================================
