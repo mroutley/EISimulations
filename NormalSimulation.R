@@ -43,5 +43,5 @@ for (row in 1:dim(powerSimulation)[1]) {
 	powerSimulation[row,]$power <- RunSimulation(duration=powerSimulation[row,]$durations, change=powerSimulation[row,]$changes, sites=powerSimulation[row,]$sites, mean=powerSimulation[row,]$mean, sd=powerSimulation[row,]$sd, iterations=iterations)
 	print(powerSimulation[row,]) # Just an update on progress
 }
-save(powerSimulation, file="QABRPAStreamflowGeorgeLakeMin.Rdata")
+save(powerSimulation, file="SimulationOutput.Rdata")
 print(Sys.time() - start)
