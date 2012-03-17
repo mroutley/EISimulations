@@ -2,13 +2,11 @@
 # = Functions for calculating p & Ψ from MacKenzie 2002
 # Matthew Routley <matt@routleynet.org>                 =
 # =======================================================
-# base <- "/Users/mroutley/Dropbox/WLNP/" # Change as appropriate
 # Required libraries
 library(reshape)
 library(doBy)
-library(ggplot2)
 # Common values
-iterations <- 1000
+# iterations <- 1000 # May be set in Common.R
 # =================================================================
 # = Calculate the values necessary for estimating occupancy rates =
 # =================================================================
